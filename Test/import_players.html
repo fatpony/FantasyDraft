@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.6.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.6.min.js"></script>
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.6.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="e830bc8b-2ea4-40ce-b90c-e589119a3bbb"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"a51a19b2-23d2-4ef5-a4a7-7582a6a819ae":{"roots":{"references":[{"attributes":{},"id":"afdfbff8-d177-4176-bdd7-8638f68fce2d","type":"StringEditor"},{"attributes":{"editor":{"id":"b63fab3c-37cf-470a-a57f-654f6d10983b","type":"StringEditor"},"field":"Fantasy Team","formatter":{"id":"6089732c-4417-4ea2-ae41-bb597fd2fd8b","type":"StringFormatter"},"title":"Fantasy Team"},"id":"7c87db49-291d-4379-a919-10e11c3148d3","type":"TableColumn"},{"attributes":{},"id":"b63fab3c-37cf-470a-a57f-654f6d10983b","type":"StringEditor"},{"attributes":{},"id":"6089732c-4417-4ea2-ae41-bb597fd2fd8b","type":"StringFormatter"},{"attributes":{"callback":null,"icon":null,"label":"Draft"},"id":"ef26d9a8-4c4d-4071-86d2-3e9ca0fa6a9e","type":"Button"},{"attributes":{"children":[{"id":"5f22c183-c943-4b5d-a09e-851b513c9a90","type":"Column"},{"id":"0aaf30c7-a986-46d9-bb66-d3797448c32c","type":"WidgetBox"}]},"id":"dc3d0a49-aff2-4ac9-8bb9-a270bb460052","type":"Row"},{"attributes":{"children":[{"id":"dc9ec492-aae2-4701-ac36-722712cc8a39","type":"Paragraph"}],"height":100,"width":200},"id":"0aaf30c7-a986-46d9-bb66-d3797448c32c","type":"WidgetBox"},{"attributes":{"child":{"id":"6e8b9e92-311f-4ff4-a624-184a8cfc3e30","type":"DataTable"},"title":"Teams"},"id":"0dfb35f7-7990-4428-83dd-39eab7c05306","type":"Panel"},{"attributes":{"height":100,"text":"Press Button","width":200},"id":"dc9ec492-aae2-4701-ac36-722712cc8a39","type":"Paragraph"},{"attributes":{"callback":null,"tabs":[{"id":"9cd8f1f7-4168-403f-9973-fb9bcc33f372","type":"Panel"},{"id":"0dfb35f7-7990-4428-83dd-39eab7c05306","type":"Panel"}]},"id":"bbae2480-3346-4b65-9081-51240315ea09","type":"Tabs"},{"attributes":{},"id":"adfed925-32b7-4790-9fc0-ee121916dad3","type":"StringFormatter"},{"attributes":{"callback":null,"column_names":["Money ($)","Fantasy Team"],"data":{"Fantasy Team":["Joseph","Tyler H.","Tyler M.","Matt","Jason","Sam","Andrew","Luke","Kevin","Josh"],"Money ($)":[200,200,200,200,200,200,200,200,200,200]}},"id":"95f7f716-cadf-4f07-bf04-f17ef62d3541","type":"ColumnDataSource"},{"attributes":{"children":[{"id":"c7883918-a2a8-4f7d-8cca-51562c0fb8d2","type":"WidgetBox"}]},"id":"5f22c183-c943-4b5d-a09e-851b513c9a90","type":"Column"},{"attributes":{"columns":[{"id":"7c87db49-291d-4379-a919-10e11c3148d3","type":"TableColumn"},{"id":"3c362cbd-562a-47c9-aae8-303f5d782817","type":"TableColumn"}],"height":1000,"source":{"id":"95f7f716-cadf-4f07-bf04-f17ef62d3541","type":"ColumnDataSource"},"width":400},"id":"6e8b9e92-311f-4ff4-a624-184a8cfc3e30","type":"DataTable"},{"attributes":{"child":{"id":"dc3d0a49-aff2-4ac9-8bb9-a270bb460052","type":"Row"},"title":"Draft"},"id":"9cd8f1f7-4168-403f-9973-fb9bcc33f372","type":"Panel"},{"attributes":{"editor":{"id":"afdfbff8-d177-4176-bdd7-8638f68fce2d","type":"StringEditor"},"field":"Money ($)","formatter":{"id":"adfed925-32b7-4790-9fc0-ee121916dad3","type":"StringFormatter"},"title":"Money ($)"},"id":"3c362cbd-562a-47c9-aae8-303f5d782817","type":"TableColumn"},{"attributes":{"children":[{"id":"ef26d9a8-4c4d-4071-86d2-3e9ca0fa6a9e","type":"Button"}]},"id":"c7883918-a2a8-4f7d-8cca-51562c0fb8d2","type":"WidgetBox"}],"root_ids":["bbae2480-3346-4b65-9081-51240315ea09"]},"title":"Bokeh Application","version":"0.12.6"}};
+              var render_items = [{"docid":"a51a19b2-23d2-4ef5-a4a7-7582a6a819ae","elementid":"e830bc8b-2ea4-40ce-b90c-e589119a3bbb","modelid":"bbae2480-3346-4b65-9081-51240315ea09"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

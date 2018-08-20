@@ -23,7 +23,6 @@ COLORS = Category20b
 
 sauces = []
 sauces.append(fantasy_teams.to_dict(orient='list'))
-temp =
 
 def draft():
     fantasy_teams.set_value('Team 1', 'Player', player_list['Player'][2], takeable=False)
